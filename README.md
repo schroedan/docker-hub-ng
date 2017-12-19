@@ -1,6 +1,6 @@
 # Angular CLI Docker Images
 
-[![Build Status](https://travis-ci.org/schroedan/docker-hub-ng.svg?branch=master)](https://travis-ci.org/schroedan/docker-hub-ng)
+[![Build Status](https://travis-ci.org/schroedan/docker-hub-ng.svg?branch=1.6)](https://travis-ci.org/schroedan/docker-hub-ng)
 
 ## Supported Tags And Respective `Dockerfile` Links
 
