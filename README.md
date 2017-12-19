@@ -4,4 +4,4 @@
 
 ## Supported Tags And Respective `Dockerfile` Links
 
-* `1.6`, `latest` ([Dockerfile](1.6/Dockerfile))
+* `1.6` ([Dockerfile](1.6/Dockerfile))
