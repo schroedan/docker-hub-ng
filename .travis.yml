@@ -5,6 +5,7 @@ services: docker
 env:
   - VERSION=1.6
   - VERSION=6.2
+  - VERSION=7.0
 
 before_script:
   - env | sort
