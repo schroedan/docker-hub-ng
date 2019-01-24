@@ -5,6 +5,7 @@
 ## Supported Tags And Respective `Dockerfile` Links
 
 * `1.6` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/1.6/1.6/Dockerfile))
+* `1.6.7` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/1.6.7/1.6/Dockerfile))
 * `1.6.6` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/1.6.6/1.6/Dockerfile))
 * `1.6.5` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/1.6.5/1.6/Dockerfile))
 * `1.6.4` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/1.6.4/1.6/Dockerfile))
