@@ -13,4 +13,4 @@ lint:
 .PHONY: build
 build:
 	@echo 'Building Docker image ${IMAGE_NAME}:${TAG_NAME}'
-	@docker build --force-rm --no-cache --squash --tag ${IMAGE_NAME}:${TAG_NAME} ${VERSION}
+	@docker build --force-rm --no-cache --tag ${IMAGE_NAME}:${TAG_NAME} ${VERSION}
