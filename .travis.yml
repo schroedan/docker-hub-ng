@@ -7,11 +7,9 @@ env:
 
 before_script:
   - env | sort
-  - cd "${VERSION}"
-  - IMAGE="schroedan/ng:${VERSION}"
 
 script:
-  - travis_retry docker build -t "$IMAGE" .
+  - travis_retry make
 
 after_script:
   - docker images
