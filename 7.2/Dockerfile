@@ -19,4 +19,8 @@ RUN set -xe \
     && yarn cache clean \
     && ng config --global cli.packageManager yarn
 
+COPY docker-ng-entrypoint /usr/local/bin/
+
+ENTRYPOINT [ "docker-ng-entrypoint" ]
+
 CMD [ "ng" ]
