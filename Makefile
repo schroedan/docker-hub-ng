@@ -1,6 +1,6 @@
 IMAGE_NAME:=$(if $(IMAGE_NAME),$(IMAGE_NAME),schroedan/ng)
 TAG_NAME:=$(if $(TAG_NAME),$(TAG_NAME),local)
-VERSION:=$(if $(VERSION),$(VERSION),7.2)
+VERSION:=$(if $(VERSION),$(VERSION),7.3)
 
 .PHONY: default
 default: lint build
