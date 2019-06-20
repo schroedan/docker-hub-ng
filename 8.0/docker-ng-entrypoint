@@ -34,4 +34,6 @@ if [ "${1#-}" != "$1" ] || isCommand "$1"; then
   set -- ng "$@"
 fi
 
+ng config --global cli.packageManager "$NG_PACKAGE_MANAGER"
+
 exec "$@"
