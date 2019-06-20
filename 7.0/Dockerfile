@@ -1,4 +1,4 @@
-FROM node:11.7.0-alpine
+FROM node:10.15.0-alpine
 
 ENV CHROME_BIN=/usr/bin/chromium-browser
 ENV CHROMIUM_VERSION=68.0.3440.75
