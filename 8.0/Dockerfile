@@ -3,6 +3,7 @@ FROM node:10.16.0-alpine
 ENV CHROME_BIN=/usr/bin/chromium-browser
 ENV CHROMIUM_VERSION=73.0.3683.103
 ENV EUDEV_LIBS_VERSION=3.2.7
+ENV NG_PACKAGE_MANAGER=yarn
 ENV NG_VERSION=8.0.3
 ENV TTF_FREEFONT_VERSION=20120503
 
@@ -22,8 +23,7 @@ RUN apk add --no-cache \
 RUN set -xe \
     && yarn global add --no-progress \
         @angular/cli@${NG_VERSION} \
-    && yarn cache clean \
-    && ng config --global cli.packageManager yarn
+    && yarn cache clean
 
 COPY docker-ng-entrypoint /usr/local/bin/
 
