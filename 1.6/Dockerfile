@@ -2,7 +2,7 @@ FROM node:8.15.0-alpine
 
 ENV CHROME_BIN=/usr/bin/chromium-browser
 ENV CHROMIUM_VERSION=68.0.3440.75
-ENV DBUS_VERSION=1.10.24
+ENV DBUS_VERSION=1.10.28
 ENV DISPLAY=:99.0
 ENV GEOMETRY=800x600x24
 ENV NG_VERSION=1.6.8
@@ -12,7 +12,7 @@ ENV XVFB_VERSION=1.19.6
 
 RUN apk add --no-cache \
     chromium=${CHROMIUM_VERSION}-r0 \
-    dbus=${DBUS_VERSION}-r1 \
+    dbus=${DBUS_VERSION}-r0 \
     ttf-freefont=${TTF_FREEFONT_VERSION}-r1 \
     xorg-server=${XORG_SERVER_VERSION}-r3 \
     xvfb=${XVFB_VERSION}-r3
