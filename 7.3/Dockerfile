@@ -1,8 +1,8 @@
-FROM node:10.16.0-alpine
+FROM node:10.15.0-alpine
 
 ENV CHROME_BIN=/usr/bin/chromium-browser
-ENV CHROMIUM_VERSION=72.0.3626.121
-ENV EUDEV_LIBS_VERSION=3.2.7
+ENV CHROMIUM_VERSION=68.0.3440.75
+ENV EUDEV_LIBS_VERSION=3.2.5
 ENV NG_VERSION=7.3.9
 ENV TTF_FREEFONT_VERSION=20120503
 
@@ -10,8 +10,7 @@ ARG NODE_OPTIONS=--no-deprecation
 
 RUN apk add --no-cache \
     chromium=${CHROMIUM_VERSION}-r0 \
-    chromium-chromedriver=${CHROMIUM_VERSION}-r0 \
-    eudev-libs=${EUDEV_LIBS_VERSION}-r0 \
+    eudev-libs=${EUDEV_LIBS_VERSION}-r2 \
     ttf-freefont=${TTF_FREEFONT_VERSION}-r1
 
 RUN set -xe \
