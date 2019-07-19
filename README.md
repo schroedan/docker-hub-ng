@@ -4,7 +4,7 @@
 
 ## Supported Tags And Respective `Dockerfile` Links
 
-* `8.1.1`, `8.1.0`, `8.1`, `latest` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/8.1/8.1/Dockerfile))
+* `8.1.2`, `8.1.1`, `8.1.0`, `8.1`, `latest` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/8.1/8.1/Dockerfile))
 * `8.0.6`, `8.0.5`, `8.0.4`, `8.0.3`, `8.0.2`, `8.0.1`, `8.0.0`, `8.0` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/8.0/8.0/Dockerfile))
 * `7.3.9`, `7.3.8`, `7.3.7`, `7.3.6`, `7.3.5`, `7.3.4`, `7.3.3`, `7.3.2`, `7.3.1`, `7.3.0`, `7.3` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/7.3/7.3/Dockerfile))
 * `7.2.4`, `7.2.3`, `7.2.2`, `7.2.1`, `7.2.0`, `7.2` ([Dockerfile](https://github.com/schroedan/docker-hub-ng/blob/7.2/7.2/Dockerfile))
