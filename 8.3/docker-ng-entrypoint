@@ -1,0 +1,40 @@
+#!/bin/sh
+
+set -e
+
+isCommand() {
+  for cmd in \
+    "add" \
+    "analytics" \
+    "build" \
+    "deploy" \
+    "config" \
+    "doc" \
+    "e2e" \
+    "generate" \
+    "help" \
+    "lint" \
+    "new" \
+    "run" \
+    "serve" \
+    "test" \
+    "update" \
+    "version" \
+    "xi18n"
+  do
+    if [ -z "${cmd#"$1"}" ]; then
+      return 0
+    fi
+  done
+
+  return 1
+}
+
+# check if the first argument passed in looks like a flag or matches a known command
+if [ "${1#-}" != "$1" ] || isCommand "$1"; then
+  set -- ng "$@"
+fi
+
+ng config --global cli.packageManager "$NG_PACKAGE_MANAGER"
+
+exec "$@"
